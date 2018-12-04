@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Customers" max_length="40" name="x_67546_vce_customers" type="collection">
+        <element label="Address" max_length="300" name="address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Email Id" max_length="100" name="email_id" type="string"/>
+        <element label="Mobile Number" max_length="20" name="mobile_number" type="string"/>
+        <element display="true" label="Name of the Customer" max_length="100" name="name_of_the_customer" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Total Amount" max_length="50" name="total_amount" type="string"/>
+        <element label="Total Bags" max_length="50" name="total_bags" type="string"/>
+        <element label="Total Due" max_length="50" name="total_due" type="string"/>
+        <element label="Total Paid" max_length="50" name="total_paid" type="string"/>
+        <element label="Work notes" max_length="4000" name="work_notes" type="journal"/>
+    </element>
+</database>

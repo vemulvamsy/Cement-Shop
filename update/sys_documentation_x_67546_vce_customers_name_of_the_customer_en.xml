@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="name_of_the_customer" label="Name of the Customer" language="en" table="x_67546_vce_customers">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>name_of_the_customer</element>
+            <help/>
+            <hint/>
+            <label>Name of the Customer</label>
+            <language>en</language>
+            <name>x_67546_vce_customers</name>
+            <plural>Name of the Customers</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-01 11:42:47</sys_created_on>
+            <sys_id>3d1d26ea4f02af00a0a27bb28110c73c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Name of the Customer</sys_name>
+            <sys_package display_value="Venkateshwara Cement Enterprises" source="x_67546_vce">e11cdeaa4f8e6f00a0a27bb28110c747</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Venkateshwara Cement Enterprises">e11cdeaa4f8e6f00a0a27bb28110c747</sys_scope>
+            <sys_update_name>sys_documentation_x_67546_vce_customers_name_of_the_customer_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-01 11:42:47</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

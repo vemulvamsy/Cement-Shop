@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="7cc97ccf4f42ef00a0a27bb28110c7e4" sys_domain="global" table="x_67546_vce_cement_sales" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-02 16:35:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>21c97ccf4f42ef00a0a27bb28110c7e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_67546_vce_cement_sales" name="x_67546_vce_cement_sales" sys_domain="global" view="Default view">7cc97ccf4f42ef00a0a27bb28110c7e4</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_67546_vce_cement_sales" sys_domain="global" view="Default view">148938cf4f42ef00a0a27bb28110c729</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-02 16:35:55</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-02 16:35:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e9c97ccf4f42ef00a0a27bb28110c7e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_67546_vce_cement_sales" name="x_67546_vce_cement_sales" sys_domain="global" view="Default view">7cc97ccf4f42ef00a0a27bb28110c7e4</sys_ui_form>
+            <sys_ui_section caption="Remarks" display_value="Remarks" name="x_67546_vce_cement_sales" sys_domain="global" view="Default view">70c97ccf4f42ef00a0a27bb28110c7e4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-02 16:35:55</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_67546_vce_cement_sales</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-02 16:35:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7cc97ccf4f42ef00a0a27bb28110c7e4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_67546_vce_cement_sales</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Venkateshwara Cement Enterprises" source="x_67546_vce">e11cdeaa4f8e6f00a0a27bb28110c747</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Venkateshwara Cement Enterprises">e11cdeaa4f8e6f00a0a27bb28110c747</sys_scope>
+            <sys_update_name>sys_ui_form_sections_7cc97ccf4f42ef00a0a27bb28110c7e4</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-02 16:35:52</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

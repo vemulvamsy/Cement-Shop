@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_67546_vce_cement_sales</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_67546_vce_cement_sales">number_of_bagsVALCHANGES^ORcost_per_bagVALCHANGES^ORtotal_amountVALCHANGES^ORpaid_amountVALCHANGES^ORdue_amountVALCHANGES^EQ<item endquery="false" field="number_of_bags" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="false" field="cost_per_bag" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item endquery="false" field="total_amount" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item endquery="false" field="paid_amount" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item endquery="false" field="due_amount" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Find customer total bags and cost</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	
+	// Add your code here
+	var totalbags = 0;
+	var totalamt = 0;
+	var totalpaid = 0;
+	var totaldue = 0;
+	var grsales = new GlideRecord('x_67546_vce_cement_sales');
+	grsales.addQuery('customer',current.customer+'');
+	grsales.query();
+	while(grsales.next()){
+		totalbags += parseInt(grsales.number_of_bags);
+		totalamt += parseFloat(grsales.total_amount);
+		totalpaid += parseFloat(grsales.paid_amount);
+		totaldue += parseFloat(grsales.due_amount);
+	}
+	
+	var grc = new GlideRecord('x_67546_vce_customers');
+	grc.addQuery('sys_id',current.customer+'');
+	grc.query();
+	if(grc.next()){
+		grc.total_due = totaldue;
+		grc.total_paid = totalpaid;
+		grc.total_amount = totalamt;
+		grc.total_bags = parseInt(totalbags);
+		grc.update();
+	}
+	
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-02 17:14:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0a2f34074f82ef00a0a27bb28110c70e</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Find customer total bags and cost</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Venkateshwara Cement Enterprises" source="x_67546_vce">e11cdeaa4f8e6f00a0a27bb28110c747</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Venkateshwara Cement Enterprises">e11cdeaa4f8e6f00a0a27bb28110c747</sys_scope>
+        <sys_update_name>sys_script_0a2f34074f82ef00a0a27bb28110c70e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-02 17:19:07</sys_updated_on>
+        <template/>
+        <when>async</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=0a2f34074f82ef00a0a27bb28110c70e"/>
+</record_update>

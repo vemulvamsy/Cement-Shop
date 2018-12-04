@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="" label="Cement Loads" language="en" table="x_67546_vce_cement_loads">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Cement Loads</label>
+            <language>en</language>
+            <name>x_67546_vce_cement_loads</name>
+            <plural>Cement Loads</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-01 11:08:22</sys_created_on>
+            <sys_id>2d352e264f02af00a0a27bb28110c736</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Cement Loads</sys_name>
+            <sys_package display_value="Venkateshwara Cement Enterprises" source="x_67546_vce">e11cdeaa4f8e6f00a0a27bb28110c747</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Venkateshwara Cement Enterprises">e11cdeaa4f8e6f00a0a27bb28110c747</sys_scope>
+            <sys_update_name>sys_documentation_x_67546_vce_cement_loads__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-01 11:08:22</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

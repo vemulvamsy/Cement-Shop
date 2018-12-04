@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="64556ae24f02af00a0a27bb28110c785" sys_domain="global" table="x_67546_vce_cement_loads" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-01 11:11:26</sys_created_on>
+            <sys_id>22e5a6664f02af00a0a27bb28110c792</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_67546_vce_cement_loads" sys_domain="global" view="Default view">64556ae24f02af00a0a27bb28110c785</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-01 11:11:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>date</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-01 11:11:26</sys_created_on>
+            <sys_id>a2e5a6664f02af00a0a27bb28110c792</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_67546_vce_cement_loads" sys_domain="global" view="Default view">64556ae24f02af00a0a27bb28110c785</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-01 11:11:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cement_shop</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-01 11:11:26</sys_created_on>
+            <sys_id>26e5a6664f02af00a0a27bb28110c792</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_67546_vce_cement_loads" sys_domain="global" view="Default view">64556ae24f02af00a0a27bb28110c785</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-01 11:11:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>provider</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-01 11:11:26</sys_created_on>
+            <sys_id>a6e5a6664f02af00a0a27bb28110c792</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_67546_vce_cement_loads" sys_domain="global" view="Default view">64556ae24f02af00a0a27bb28110c785</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-01 11:11:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vehicle_number</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-01 11:11:26</sys_created_on>
+            <sys_id>2ae5a6664f02af00a0a27bb28110c792</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_67546_vce_cement_loads" sys_domain="global" view="Default view">64556ae24f02af00a0a27bb28110c785</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-01 11:11:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>invoice_number</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-01 11:11:26</sys_created_on>
+            <sys_id>aae5a6664f02af00a0a27bb28110c792</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_67546_vce_cement_loads" sys_domain="global" view="Default view">64556ae24f02af00a0a27bb28110c785</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-01 11:11:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-01 11:11:26</sys_created_on>
+            <sys_id>2ee5a6664f02af00a0a27bb28110c792</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_67546_vce_cement_loads" sys_domain="global" view="Default view">64556ae24f02af00a0a27bb28110c785</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-01 11:11:26</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number_of_bags</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-01 11:11:26</sys_created_on>
+            <sys_id>aee5a6664f02af00a0a27bb28110c792</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_67546_vce_cement_loads" sys_domain="global" view="Default view">64556ae24f02af00a0a27bb28110c785</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-01 11:11:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cost_per_bag</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-01 11:11:26</sys_created_on>
+            <sys_id>22e5a6664f02af00a0a27bb28110c793</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_67546_vce_cement_loads" sys_domain="global" view="Default view">64556ae24f02af00a0a27bb28110c785</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-01 11:11:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>total_amount</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-01 11:11:26</sys_created_on>
+            <sys_id>a2e5a6664f02af00a0a27bb28110c793</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_67546_vce_cement_loads" sys_domain="global" view="Default view">64556ae24f02af00a0a27bb28110c785</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-01 11:11:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hamali</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-01 11:11:26</sys_created_on>
+            <sys_id>26e5a6664f02af00a0a27bb28110c793</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_67546_vce_cement_loads" sys_domain="global" view="Default view">64556ae24f02af00a0a27bb28110c785</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-01 11:11:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>grand_total</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-01 11:11:26</sys_created_on>
+            <sys_id>a6e5a6664f02af00a0a27bb28110c793</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_67546_vce_cement_loads" sys_domain="global" view="Default view">64556ae24f02af00a0a27bb28110c785</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-01 11:11:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_67546_vce_cement_loads</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-01 11:08:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>64556ae24f02af00a0a27bb28110c785</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_67546_vce_cement_loads</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Venkateshwara Cement Enterprises" source="x_67546_vce">e11cdeaa4f8e6f00a0a27bb28110c747</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Venkateshwara Cement Enterprises">e11cdeaa4f8e6f00a0a27bb28110c747</sys_scope>
+            <sys_update_name>sys_ui_section_64556ae24f02af00a0a27bb28110c785</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-01 11:08:51</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_related sys_domain="global" table="x_67546_vce_customers" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Customers - Default view" name="x_67546_vce_customers" related_list="NULL" sys_domain="global" view="Default view">12fb6fa74f026340a0a27bb28110c733</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>x_67546_vce_cement_sales.customer</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-04 18:51:27</sys_created_on>
+            <sys_id>d6fb6fa74f026340a0a27bb28110c733</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-04 18:51:27</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Customers - Default view</calculated_name>
+            <filter/>
+            <name>x_67546_vce_customers</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-04 18:51:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>12fb6fa74f026340a0a27bb28110c733</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Customers - Default view</sys_name>
+            <sys_package display_value="Venkateshwara Cement Enterprises" source="x_67546_vce">e11cdeaa4f8e6f00a0a27bb28110c747</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Venkateshwara Cement Enterprises">e11cdeaa4f8e6f00a0a27bb28110c747</sys_scope>
+            <sys_update_name>sys_ui_related_x_67546_vce_customers_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-04 18:51:27</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

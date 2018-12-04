@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Cement Trade Payments" max_length="40" name="x_67546_vce_cement_trade_payments" type="collection">
+        <element label="Amount" mandatory="true" max_length="50" name="amount" type="string"/>
+        <element default="javascript:gs.now()" dynamic_default_value="fb7553e85f220100a9ad2572f2b477b4" label="Date" mandatory="true" max_length="40" name="date" type="glide_date" use_dynamic_default="true"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Provider" mandatory="true" max_length="32" name="provider" reference="x_67546_vce_cement_providers" type="reference"/>
+        <element label="Shop" max_length="32" name="shop" reference="x_67546_vce_cement_shop" type="reference"/>
+        <element label="Work notes" max_length="4000" name="work_notes" type="journal"/>
+        <index name="index">
+            <element name="shop"/>
+        </index>
+        <index name="index2">
+            <element name="provider"/>
+        </index>
+    </element>
+</database>

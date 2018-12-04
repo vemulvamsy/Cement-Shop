@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Cement Providers" max_length="40" name="x_67546_vce_cement_providers" type="collection">
+        <element label="Address" max_length="200" name="address" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element display="true" label="Provider Name" mandatory="true" max_length="100" name="provider_name" type="string"/>
+        <element label="Total Amount" max_length="50" name="total_amount" read_only="true" type="string"/>
+        <element label="Total Bags in Stock" max_length="50" name="total_bags_in_stock" read_only="true" type="string"/>
+        <element label="Total Bags Provided" max_length="50" name="total_bags_provided" read_only="true" type="string"/>
+        <element label="Total Bags Sold" max_length="50" name="total_bags_sold" read_only="true" type="string"/>
+        <element label="Total Due" max_length="50" name="total_due" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Total Hamali Amount" max_length="40" name="total_hamali_amount" read_only="true" type="string"/>
+        <element label="Total Paid" max_length="50" name="total_paid" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Total Sales Amount" max_length="40" name="total_sales_amount" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Total Sales Due Amount" max_length="40" name="total_sales_due_amount" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Total Sales Paid Amount" max_length="40" name="total_sales_paid_amount" read_only="true" type="string"/>
+        <element label="Work notes" max_length="4000" name="work_notes" type="journal"/>
+    </element>
+</database>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Cement Sales" max_length="40" name="x_67546_vce_cement_sales" type="collection">
+        <element label="Cost per Bag" mandatory="true" max_length="20" name="cost_per_bag" type="string"/>
+        <element hint="For normal customer select General Customer" label="Customer" mandatory="true" max_length="32" name="customer" reference="x_67546_vce_customers" type="reference"/>
+        <element default="javascript:gs.now()" dynamic_default_value="fb7553e85f220100a9ad2572f2b477b4" label="Date" mandatory="true" max_length="40" name="date" type="glide_date" use_dynamic_default="true"/>
+        <element label="Due Amount" max_length="20" name="due_amount" read_only="true" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Number of Bags" mandatory="true" max_length="20" name="number_of_bags" type="string"/>
+        <element label="Paid Amount" mandatory="true" max_length="20" name="paid_amount" type="string"/>
+        <element label="Provider" mandatory="true" max_length="32" name="provider" reference="x_67546_vce_cement_providers" type="reference"/>
+        <element label="Shop" mandatory="true" max_length="32" name="shop" reference="x_67546_vce_cement_shop" type="reference"/>
+        <element label="Total Amount" max_length="20" name="total_amount" read_only="true" type="string"/>
+        <element label="Work notes" max_length="4000" name="work_notes" type="journal"/>
+        <index name="index">
+            <element name="shop"/>
+        </index>
+        <index name="index2">
+            <element name="provider"/>
+        </index>
+        <index name="index3">
+            <element name="customer"/>
+        </index>
+    </element>
+</database>

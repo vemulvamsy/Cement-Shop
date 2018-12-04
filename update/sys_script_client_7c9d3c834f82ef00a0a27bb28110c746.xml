@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>paid_amount</field>
+        <global>true</global>
+        <messages/>
+        <name>Find due on change of paid amt</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if (newValue === '') {
+		return;
+	}
+	var cpg = g_form.getValue('cost_per_bag');
+	var nob = g_form.getValue('number_of_bags');
+	var paid = g_form.getValue('paid_amount');
+	
+	var no_of_bags = nob == '' ? 0 : nob;
+	var cost_per_bag = cpg == '' ? 0 : cpg;
+	var total = parseFloat(no_of_bags) * parseFloat(cost_per_bag);
+	var paid_amt = paid == '' ? 0 : paid;
+	var due_amt = parseFloat(total) - parseFloat(paid_amt);
+	g_form.setValue('total_amount',total);
+	g_form.setValue('due_amount',due_amt);
+	//Type appropriate comment here, and begin script below
+	
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-02 16:53:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7c9d3c834f82ef00a0a27bb28110c746</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Find due on change of paid amt</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Venkateshwara Cement Enterprises" source="x_67546_vce">e11cdeaa4f8e6f00a0a27bb28110c747</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Venkateshwara Cement Enterprises">e11cdeaa4f8e6f00a0a27bb28110c747</sys_scope>
+        <sys_update_name>sys_script_client_7c9d3c834f82ef00a0a27bb28110c746</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-02 16:53:23</sys_updated_on>
+        <table>x_67546_vce_cement_sales</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

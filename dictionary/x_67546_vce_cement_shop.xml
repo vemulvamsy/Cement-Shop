@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Cement Shop" max_length="40" name="x_67546_vce_cement_shop" type="collection">
+        <element label="Address" max_length="300" name="address" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element display="true" label="Shop Name" max_length="200" name="shop_name" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Total Dues from Customers" max_length="50" name="total_dues_from_customers" read_only="true" type="string"/>
+        <element label="Total Dues to Providers" max_length="50" name="total_dues_to_providers" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Total Expenditure" max_length="40" name="total_expenditure" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Total Hamali Amount" max_length="40" name="total_hamali_amount" read_only="true" type="string"/>
+        <element label="Total Income Bags" max_length="50" name="total_income_bags" read_only="true" type="string"/>
+        <element label="Total Income Bags Amount" max_length="50" name="total_income_bags_amount" read_only="true" type="string"/>
+        <element label="Total Paid to Providers" max_length="50" name="total_paid_to_providers" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Total Salaries" max_length="40" name="total_salaries" read_only="true" type="string"/>
+        <element label="Total Sales Amount" max_length="50" name="total_sales_amount" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Total Sales Paid Amount" max_length="40" name="total_sales_paid_amount" read_only="true" type="string"/>
+        <element label="Total Sold Bags" max_length="50" name="total_sold_bags" read_only="true" type="string"/>
+        <element label="Total Stock Bags" max_length="50" name="total_stock_bags" read_only="true" type="string"/>
+        <element label="Work notes" max_length="4000" name="work_notes" type="journal"/>
+    </element>
+</database>

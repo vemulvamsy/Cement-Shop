@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Cement Loads" max_length="40" name="x_67546_vce_cement_loads" type="collection">
+        <element label="Cement Shop" mandatory="true" max_length="32" name="cement_shop" reference="x_67546_vce_cement_shop" type="reference"/>
+        <element label="Cost per Bag (B)" mandatory="true" max_length="50" name="cost_per_bag" type="string"/>
+        <element default="javascript:gs.now()" dynamic_default_value="fb7553e85f220100a9ad2572f2b477b4" label="Date" mandatory="true" max_length="40" name="date" type="glide_date" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true" label="Grand Total (C+D)" max_length="50" name="grand_total" read_only="true" type="string"/>
+        <element default="0" label="Hamali (D)" mandatory="true" max_length="50" name="hamali" type="string"/>
+        <element label="Invoice Number" max_length="100" name="invoice_number" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Number of Bags (A)" mandatory="true" max_length="50" name="number_of_bags" type="string"/>
+        <element label="Provider" mandatory="true" max_length="32" name="provider" reference="x_67546_vce_cement_providers" type="reference"/>
+        <element label="Total Amount (C = A*B)" max_length="50" name="total_amount" read_only="true" type="string"/>
+        <element label="Vehicle Number" max_length="50" name="vehicle_number" type="string"/>
+        <element label="Work notes" max_length="4000" name="work_notes" type="journal"/>
+        <index name="index">
+            <element name="cement_shop"/>
+        </index>
+        <index name="index2">
+            <element name="provider"/>
+        </index>
+    </element>
+</database>

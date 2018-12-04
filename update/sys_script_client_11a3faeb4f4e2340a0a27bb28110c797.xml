@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>total_bags_sold</field>
+        <global>true</global>
+        <messages/>
+        <name>find stock for provider on TBS changes</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if (newValue === '') {
+		return;
+	}
+	var tcb = g_form.getValue('total_bags_provided'); 
+	var tsb = g_form.getValue('total_bags_sold'); 
+
+	var no_of_bags = tcb == '' ? 0 : tcb;
+	var sold_bags = tsb == '' ? 0 : tsb;
+	var stock_bags = parseInt(no_of_bags) - parseInt(sold_bags);
+	g_form.setValue('total_bags_in_stock',stock_bags);
+	//Type appropriate comment here, and begin script below
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-04 14:46:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>11a3faeb4f4e2340a0a27bb28110c797</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>find stock for provider on TBS changes</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Venkateshwara Cement Enterprises" source="x_67546_vce">e11cdeaa4f8e6f00a0a27bb28110c747</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Venkateshwara Cement Enterprises">e11cdeaa4f8e6f00a0a27bb28110c747</sys_scope>
+        <sys_update_name>sys_script_client_11a3faeb4f4e2340a0a27bb28110c797</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-04 17:48:55</sys_updated_on>
+        <table>x_67546_vce_cement_providers</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
